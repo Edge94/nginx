@@ -63,7 +63,7 @@ metadata:
   name: nginx
 spec:
   rules:
-  - host: nginx.${CLUSTER}.k8s.tech.orange
+  - host: nginx.$CLUSTER.k8s.tech.orange
     http:
       paths:
       - backend:
